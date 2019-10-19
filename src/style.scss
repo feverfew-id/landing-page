@@ -1,0 +1,68 @@
+@import "../node_modules/bulma/bulma.sass";
+
+@font-face {
+  font-family: "monopoly";
+  src: url("./fonts/MonopolyRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "monopoly-bold";
+  src: url("./fonts/MonopolyBold.ttf") format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+.monopoli {
+  font-family: "monopoly";
+}
+
+.is-absolute {
+  position: absolute;
+}
+
+.is-w200 {
+  width: 200px;
+  height: auto;
+}
+
+.tagline {
+  padding-top: 31vh;
+  .text1 {
+    font-family: "monopoly-bold";
+    color: #dc143b;
+  }
+  .text2 {
+    font-family: "Lato", sans-serif;
+    color: grey;
+    padding-top: 20vh;
+  }
+}
+
+.bookstack {
+  width: 400px;
+  height: auto;
+  margin-left: 130px;
+}
+
+.banner {
+  margin-bottom: 50vh;
+}
+
+.logo {
+  padding-top: 10vh;
+}
+
+.iframe-container {
+  overflow: hidden;
+  // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
+  padding-top: 56.25%;
+  position: relative;
+  iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
