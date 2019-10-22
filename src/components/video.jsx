@@ -5,8 +5,9 @@ const video = () => {
     <section className="hero is-fullheight">
       <div className="hero-body">
         <div className="container has-text-centered">
-          <div className="iframe-container">
+          <figure className="image is-16by9">
             <iframe
+              className="has-ratio"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/oYgCHUKJ-Vc"
@@ -14,8 +15,7 @@ const video = () => {
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-          </div>
-          <p className="is-size-2">Masih bingung pilih tim yang mana? SKUY!</p>
+          </figure>
         </div>
       </div>
     </section>

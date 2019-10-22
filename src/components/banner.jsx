@@ -21,7 +21,7 @@ const banner = () => {
               <h1 className="title is-size-3 text1">
                 "So Many Time, So Little Interest"
               </h1>
-              <p className="subtitle is-size-4 text2">Kamu tim yang mana?</p>
+              {/* <p className="subtitle is-size-4 text2">Kamu tim yang mana?</p> */}
             </div>
           </div>
           <div className="column">

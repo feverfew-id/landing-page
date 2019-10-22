@@ -31,11 +31,6 @@
     font-family: "monopoly-bold";
     color: #dc143b;
   }
-  .text2 {
-    font-family: "Lato", sans-serif;
-    color: grey;
-    padding-top: 20vh;
-  }
 }
 
 .bookstack {
@@ -45,12 +40,32 @@
 }
 
 .banner {
-  margin-bottom: 50vh;
+  margin-bottom: 30vh;
 }
 
 .logo {
   padding-top: 10vh;
 }
+
+// footer ->
+.max-w-650 {
+  max-width: 650px;
+}
+
+.mx-auto {
+  margin: 0px auto;
+}
+
+.input,
+.button {
+  border-radius: 0;
+}
+
+.navbar-divider {
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+}
+// <- footer
 
 .iframe-container {
   overflow: hidden;
