@@ -1,29 +1,47 @@
 import React from "react"
 
+import Pacul from "../../static/pacul.png"
+import Pande from "../../static/pande.png"
+
 const problem = () => {
   return (
     <section className="hero is-fullheight">
-      <div className="hero-head has-text-centered">
-        <h1 className="title">Kamu yang mana?</h1>
-      </div>
       <div className="hero-body">
         <div className="container">
           <div class="columns">
+            {/* Pande */}
             <div class="column">
-              <div className="box has-text-centered has-background-info">
-                <p className="title has-text-white">Pande</p>
-                <p className="subtitle has-text-white">Jeleme sibuk</p>
-                <p className="has-text-white">Sing ngelah waktu mace buku</p>
+              <div className="card">
+                <div className="card-image">
+                  <figure className="image problem-image">
+                    <img src={Pande} alt="Orang Sibuk" />
+                  </figure>
+                </div>
+                <div className="card-content">
+                  <div class="content">
+                    <h3>Dirga</h3>
+                    <p>Orang sibuk yang tidak punya waktu untuk membaca buku</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="column has-text-centered is-one-fifth">
+            <div class="column is-one-fifth vertical-center">
               <strong>Atau</strong>
             </div>
+            {/* Dendy */}
             <div class="column">
-              <div className="box has-text-centered has-background-danger">
-                <p className="title has-text-white">Dendy</p>
-                <p className="subtitle has-text-white">Jeleme males</p>
-                <p className="has-text-white">Sing demen mace buku</p>
+              <div className="card">
+                <div class="card-image">
+                  <figure class="image problem-image">
+                    <img src={Pacul} alt="Orang malas" />
+                  </figure>
+                </div>
+                <div className="card-content">
+                  <div class="content">
+                    <h3>Dendy</h3>
+                    <p>Orang malas yang tidak punya minat untuk membaca buku</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
