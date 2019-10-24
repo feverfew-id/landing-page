@@ -6,6 +6,13 @@ import Pande from "../../static/pande.png"
 const problem = () => {
   return (
     <section className="hero is-fullheight">
+      <div className="hero-head">
+        <div className="container has-text-centered">
+          <h1 className="title is-size-2">
+            Punya masalah yang sama seperti mereka?
+          </h1>
+        </div>
+      </div>
       <div className="hero-body">
         <div className="container">
           <div class="columns">

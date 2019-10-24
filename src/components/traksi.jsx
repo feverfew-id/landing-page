@@ -10,9 +10,9 @@ const traksi = () => {
               Tetaplah bersama kami
             </h1>
             <p className="has-text-white is-size-5">
-              Waktu anda terbatas, jadi jangan sia-siakan dengan menjalani hidup
-              orang lain. Jika anda salah satu orang yang menghargai waktu
-              tetaplah terhuubung dengan kami
+              Jika kamu adalah orang yang ingin melihat dunia, tetapi TIDAK
+              SEMPAT atau bahkan MALAS membuka jendela, tetaplah terhubung
+              dengan kami
             </p>
             <br />
             <div className="field is-grouped">
