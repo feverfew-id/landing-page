@@ -15,7 +15,7 @@ const traksi = () => {
               dengan kami
             </p>
             <br />
-            <div className="field is-grouped">
+            {/* <div className="field is-grouped">
               <p className="control is-expanded">
                 <input
                   className="input is-medium"
@@ -26,7 +26,13 @@ const traksi = () => {
               <p className="control">
                 <a className="button is-danger is-medium">Submit</a>
               </p>
-            </div>
+            </div> */}
+            <a
+              href="https://forms.gle/nykgxstk1NL36ygy6"
+              className="button is-danger"
+            >
+              <strong>KLIK DISINI</strong>
+            </a>
           </div>
           {/* <div className="navbar-divider"></div>
           <div className="has-text-centered lh-2">
